@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/moss_green" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Rx Navi"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/my_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/my_indeterminate_progress" />
+    
+    <TextView
+        android:id="@+id/my_progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/my_progress_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="this is the progress text..."
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>
